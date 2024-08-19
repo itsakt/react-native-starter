@@ -1,7 +1,15 @@
 
-This (non-expo) starter project integrates [react-navigation](https://reactnavigation.org/) with support for running tests using [jest](https://jestjs.io/)
+React native non-expo project (TypeScript) created using `npx @react-native-community/cli@latest init AwesomeProject`
+with following modifications
 
+* Moved source files to ***./src*** folder
+* Updated jest config for testing react native (and navigation)
+* Added [react-navigation](https://reactnavigation.org/) - Configured a simple StackNavigator using two screens
+* Type configuration for both navigator and screens
+* Sample test case for testing navigation
+* `@typescript-eslint/no-unused-vars: "warn"` - personal preference
 
+If you are using vscode, open editor settings and set **typescript.preferences.importModuleSpecifier** to **relative** for forcing relative paths when auto importing modules.
 
 # Getting Started
 
