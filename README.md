@@ -9,7 +9,7 @@ with following modifications
 * Sample test case for testing navigation
 * `@typescript-eslint/no-unused-vars: "warn"` - personal preference
 
-If you are using vscode, open editor settings and set **typescript.preferences.importModuleSpecifier** to **relative** for forcing relative paths when auto importing modules.
+>**Note**: If you are using vscode, open editor settings and set **typescript.preferences.importModuleSpecifier** to **relative** for forcing relative paths when auto importing modules.
 
 # Getting Started
 
